@@ -1,0 +1,305 @@
+{
+    "Ведро":
+      ["title", "clear"],
+  
+    "Можност за многу слаби врнежи":
+      ["title", "possible-very-light-precipitation"],
+  
+    "Слаби врнежи":
+      ["title", "very-light-precipitation"],
+  
+    "Можност за слаби врнежи":
+      ["title", "possible-light-precipitation"],
+  
+    "Слаби врнежи":
+      ["title", "light-precipitation"],
+  
+    "Врнежи":
+      ["title", "medium-precipitation"],
+  
+    "Силни врнежи":
+      ["title", "heavy-precipitation"],
+  
+    "Можност за многу слаб дожд":
+      ["title", "possible-very-light-rain"],
+  
+    "Многу слаб дожд":
+      ["title", "very-light-rain"],
+  
+    "Можност за слаб дожд":
+      ["title", "possible-light-rain"],
+  
+    "Слаб дожд":
+      ["title", "light-rain"],
+  
+    "Дожд":
+      ["title", "medium-rain"],
+  
+    "Силен дожд":
+      ["title", "heavy-rain"],
+  
+    "Можност за појава на многу слаба лапавица":
+      ["title", "possible-very-light-sleet"],
+  
+    "Многу слаба лапавица":
+      ["title", "very-light-sleet"],
+  
+    "Можност за појава на слаба лапавица":
+      ["title", "possible-light-sleet"],
+  
+    "Слаба лапавица":
+      ["title", "light-sleet"],
+  
+    "Лапавица":
+      ["title", "medium-sleet"],
+  
+    "Силна лапавица":
+      ["title", "heavy-sleet"],
+  
+    "Можност за многу слаб снег":
+      ["title", "possible-very-light-snow"],
+  
+    "Многу слаб снег":
+      ["title", "very-light-snow"],
+  
+    "Можност за слаб снег":
+      ["title", "possible-light-snow"],
+  
+    "Слаб снег":
+      ["title", "light-snow"],
+  
+    "Снег":
+      ["title", "medium-snow"],
+  
+    "Снег":
+      ["title", "heavy-snow"],
+
+    "Можност за грмотевици":
+      ["title", "possible-thunderstorm"],
+
+    "Грмотевици":
+      ["title", "thunderstorm"],
+      
+    "Ветровито":
+      ["title", "light-wind"],  
+  
+    "Ветер":
+      ["title", "medium-wind"],
+  
+    "Силен ветер":
+      ["title", "heavy-wind"],
+  
+    "Магловито":
+      ["title", "fog"],
+  
+    "Претежно облачно":
+      ["title", "medium-clouds"],
+  
+    "Облачно":
+      ["title", "heavy-clouds"],
+  
+    "Суво и ветровито":
+      ["title", ["and", "low-humidity", "light-wind"]],
+  
+    "Многу слаб дожд и силен ветер":
+      ["title", ["and", "very-light-rain", "heavy-wind"]],
+  
+    "Влажно и на места облачно":
+      ["title", ["and", "high-humidity", "light-clouds"]],
+  
+    "Ведро во овој час.":
+      ["sentence", ["for-hour", "clear"]],
+  
+    "Многу слаб снег почнува за 35 минути.":
+      ["sentence", ["starting-in", "very-light-snow", ["minutes", 35]]],
+  
+    "Слаб дожд престанува за 15 минути.":
+      ["sentence", ["stopping-in", "light-rain", ["minutes", 15]]],
+  
+    "Силна лапавица почнува за 20 минути, а престанува за 30 минути.":
+      ["sentence",
+        ["starting-then-stopping-later",
+          "heavy-sleet",
+          ["minutes", 20],
+          ["minutes", 30]]],
+  
+    "Дожд престанува за 25 минути, а почнува за 8 минути.":
+      ["sentence",
+        ["stopping-then-starting-later",
+          "medium-rain",
+          ["minutes", 25],
+          ["minutes", 8]]],
+  
+  
+    "Претежно облачно во текот на целиот ден.":
+      ["sentence", ["for-day", "medium-clouds"]],
+  
+    "Многу слаба лапавица почнува наутро.":
+      ["sentence", ["starting", "very-light-sleet", "morning"]],
+  
+    "Ветер до ноќва.":
+      ["sentence", ["until", "medium-wind", "today-night"]],
+  
+    "Силни врнежи до попладне.":
+      ["sentence", ["until", "heavy-precipitation", "afternoon"]],
+  
+    "Ветровито попладне.":
+      ["sentence", ["during", "light-wind", "afternoon"]],
+  
+    "Снег доцна навечер и утре наутро.":
+      ["sentence", ["during",
+        "medium-snow",
+        ["and", "later-today-evening", "tomorrow-morning"]]],
+  
+    "Силен дожд до подоцна ова утро и повторно почнува вечер.":
+      ["sentence", ["until-starting-again",
+        "heavy-rain",
+        "later-today-morning",
+        "today-evening"]],
+  
+    "Облачно почнува од вечер, продолжува во текот на ноќва.":
+      ["sentence", ["starting-continuing-until",
+        "heavy-clouds",
+        "evening",
+        "night"]],
+  
+    "Подоцна ова попладне слаба лапавица, утре наутро магловито.":
+      ["sentence", ["and",
+        ["during", "light-sleet", "later-today-afternoon"],
+        ["during", "fog", "tomorrow-morning"]]],
+  
+    "Силен ветер ова утро, продолжува до попладне и утре наутро лапавица.":
+      ["sentence", ["and",
+        ["starting-continuing-until",
+          "heavy-wind",
+          "today-morning",
+          "today-afternoon"],
+        ["during", "medium-sleet", "tomorrow-morning"]]],
+  
+    "Облачно почнува доцна ноќва и силен снег утре попладне.":
+      ["sentence", ["and",
+        ["starting", "heavy-clouds", "later-today-night"],
+        ["during", "heavy-snow", "tomorrow-afternoon"]]],
+  
+    "Ноќва суво, слаби врнежи утре вечер, ќе продолжат во текот на ноќта.":
+      ["sentence", ["and",
+        ["during", "low-humidity", "today-night"],
+        ["starting-continuing-until",
+          "light-precipitation",
+          "tomorrow-evening",
+          "tomorrow-night"]]],
+  
+    "Снег (5 инчи) во текот на ноќта.":
+      ["sentence", ["during",
+        ["parenthetical", "medium-snow", ["inches", 5]],
+        "night"]],
+  
+    "Слаб снег (2cm) подоцна ова утро.":
+      ["sentence", ["during",
+        ["parenthetical", "light-snow", ["centimeters", 2]],
+        "later-today-morning"]],
+  
+    "Снег (8\u201312 инчи) во текот на целиот ден.":
+      ["sentence", ["for-day",
+        ["parenthetical", "heavy-snow", ["inches", ["range", 8, 12]]]]],
+  
+    "Снег (помалку од 1cm) попладне.":
+      ["sentence", ["during",
+        ["parenthetical", "medium-snow", ["less-than", ["centimeters", 1]]],
+        "afternoon"]],
+  
+  
+    "Без врнежи во текот на неделата, со температура највисока до 85°F утре.":
+      ["sentence", ["with",
+        ["for-week", "no-precipitation"],
+        ["temperatures-peaking",
+          ["fahrenheit", 85],
+          "tomorrow"]]],
+  
+    "Мешани врнежи за време на викендот, со пораст на температирата до 32\u00B0C во четврток.":
+      ["sentence", ["with",
+        ["over-weekend", "mixed-precipitation"],
+        ["temperatures-rising",
+          ["celsius", 32],
+          "thursday"]]],
+  
+    "Многу слаб дожд во понеделник, со температура најниска до 15°F во петок.":
+      ["sentence", ["with",
+        ["during", "very-light-rain", "monday"],
+        ["temperatures-valleying",
+          ["fahrenheit", 15],
+          "friday"]]],
+  
+    "Слаб снег во вторник и среда, пад на температурата до 0\u00B0C во недела.":
+      ["sentence", ["with",
+        ["during", "light-snow", ["and", "tuesday", "wednesday"]],
+        ["temperatures-falling",
+          ["celsius", 0],
+          "sunday"]]],
+  
+    "Врнежи од денес до сабота, со температира највисока до 100\u00B0F во понеделник.":
+      ["sentence", ["with",
+        ["during",
+          "medium-precipitation",
+          ["through", "today", "saturday"]],
+        ["temperatures-peaking",
+          ["fahrenheit", 100],
+          "monday"]]],
+                  
+      "Врнежи од денес до недела, со температура највисока до 100\u00B0F во вторник.":
+      ["sentence", ["with",
+        ["during",
+          "medium-precipitation",
+          ["through", "today", "sunday"]],
+        ["temperatures-peaking",
+          ["fahrenheit", 100],
+          "tuesday"]]],
+                  
+      "Слаби врнежи од денес до понеделник, со температура највисока до 100\u00B0F во среда.":
+      ["sentence", ["with",
+        ["during",
+          "light-precipitation",
+          ["through", "today", "monday"]],
+        ["temperatures-peaking",
+          ["fahrenheit", 100],
+          "wednesday"]]],
+                  
+      "Врнежи од денес до вторник, со температура највисока до 100\u00B0F во четврток.":
+      ["sentence", ["with",
+        ["during",
+          "medium-precipitation",
+          ["through", "today", "tuesday"]],
+        ["temperatures-peaking",
+          ["fahrenheit", 100],
+          "thursday"]]],
+                  
+      "Врнежи од понеделник до среда, со температура најниска до 100\u00B0F во петок.":
+      ["sentence", ["with",
+        ["during",
+          "medium-precipitation",
+          ["through", "monday", "wednesday"]],
+        ["temperatures-valleying",
+          ["fahrenheit", 100],
+          "friday"]]],
+                  
+      "Врнежи од денес до четврток, со температура најмногу до 100\u00B0F во сабота.":
+      ["sentence", ["with",
+        ["during",
+          "medium-precipitation",
+          ["through", "today", "thursday"]],
+        ["temperatures-peaking",
+          ["fahrenheit", 100],
+          "saturday"]]] ,
+  
+      "Силен ветер од петок до петок, со пад на температурите до 10\u00B0F во недела.":
+      ["sentence", ["with",
+        ["during",
+          "heavy-wind",
+          ["through", "friday", "friday"]],
+        ["temperatures-falling",
+          ["fahrenheit", 10],
+          "sunday"]]] 
+  
+                  
+  }
+  
